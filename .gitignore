@@ -1,0 +1,35 @@
+# File types
+*.dump
+*.gz
+*.lock
+*.log
+*.mo
+*.pyc
+*.sql
+*.swn
+*.swo
+*.swp
+
+# OS files
+.DS_Store
+sprites-*.png
+ehthumbs.db
+Icon?
+Thumbs.db
+*~
+
+# Configuration files
+/app/local_settings.py
+
+# Folders
+.sass-cache
+.bundle-gems
+.coverage
+.vscode
+.pytest_cache
+__pycache__
+/app/static/css/*.css
+/node_modules
+/static
+/uploads
+/htmlcov

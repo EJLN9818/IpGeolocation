@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
+        <link rel="stylesheet" href="../static/css/styles.css">
+        <title>Buscar información de IP</title>
+  </head>
+  <body>
+    <!--
+                  _
+
+   ▄████████      ▄█  ▄█       ███▄▄▄▄   
+  ███    ███     ███ ███       ███▀▀▀██▄ 
+  ███    █▀      ███ ███       ███   ███ 
+ ▄███▄▄▄         ███ ███       ███   ███ 
+▀▀███▀▀▀         ███ ███       ███   ███ 
+  ███    █▄      ███ ███       ███   ███ 
+  ███    ███     ███ ███▌    ▄ ███   ███ 
+  ██████████ █▄ ▄███ █████▄▄██  ▀█   █▀  
+             ▀▀▀▀▀▀  ▀                   
+
+  -->
+    <main class="container">
+      <form id="form">
+        <label>
+            IP del usuario
+            <input required id="input" type="text" placeholder="Introduce tu IP">
+            <small>Por ejemplo: 54.85.132.205</small>
+        </label>
+        <button type="submit" id="submit">Buscar información de esta IP</button>
+      </form>
+
+      <div>
+        <pre id="results">
+
+        </pre>
+      </div>
+    </main>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="../static/js/script.js"></script>
+</html>
